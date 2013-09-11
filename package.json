@@ -1,6 +1,5 @@
 {
-  "name": "lotro-zf2-payments",
-  "private":true,
+  "name": "quarters",
   "dependencies": {
     "grunt": "~0.4.1",
     "grunt-contrib-jshint": "~0.6.0",

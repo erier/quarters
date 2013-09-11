@@ -2,20 +2,20 @@ module.exports = function(grunt) {
 	
 	grunt.initConfig({
 		clean: [
-			'img',
-			'css',
-			'js'
+			'img/*',
+			'css/*',
+			'js/*'
 		],
 		
-	  sass: {                              // Task
-	    dist: {                            // Target
-	      options: {                       // Target options
+	  sass: {
+	    dist: {
+	      options: {
 	        style: 'compressed',
 	        lineNumbers: true,
 	        cacheLocation: '.sass-cache'
 	      },
-	      files: {                         // Dictionary of files
-	        'dist/css/base.css': 'build/css/sass/*.scss'
+	      files: {
+	        'dist/css/base.css': 'build/css/sass/*.*'
 	      }
 	    }
 	  },
@@ -42,7 +42,7 @@ module.exports = function(grunt) {
 	      tasks: [],
 	    },
 	    src: {
-	      files: ['build/js/*.js', 'build/css/**/*.sass', 'bower_components/jquery/jquery.js', 'dist/assets/img'],
+	      files: ['build/js/*.js', 'build/css/sass/**/*', 'dist/assets/img'],
 	      tasks: ['default'],
 	    }
 	  },

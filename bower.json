@@ -1,0 +1,26 @@
+{
+  "name": "quarters",
+  "version": "0.0.0",
+  "homepage": "https://github.com/erier/quarters",
+  "description": "Quarters portolio site",
+  "keywords": [
+    "quarters",
+    "front-end"
+  ],
+  "authors": [
+    "Eric Rier"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  
+  "devDependencies": {
+  	"bourbon": "v3.1.8",
+  	"bootstrap": "2.3.2"
+  }
+}
